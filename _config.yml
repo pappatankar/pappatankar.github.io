@@ -1,0 +1,75 @@
+title:            Pappatankar
+description:      En helt vanlig pappa antecknar sina tankar
+
+disqus_shortname: pappatankar.disqus.com
+reading_time:     true # if true, shows the estimated reading time for a post
+words_per_minute: 200
+logo:             #images/logo.png # logo visible in the topbar
+excerpt_separator: <!--more-->
+
+url: https://pappatankar.nu
+
+menu:
+# Owner/author information
+owner:
+  name:           Pappatankar
+  site:           https://pappatankar.github.io
+  avatar:         images/avatar.jpg
+  bio:            En pappa som fick barn under 2020, delar med sig av sina
+    tankar i förhoppning om att kunna informera och göra pappor mer delaktiga i
+    sitt föräldraskap.
+  email:
+  twitter:
+  github:
+
+twitter:
+
+# Social networking links used in author block underneath posts. Update and remove as you like.
+#social:
+#  - title: "github"
+#    url: ""
+#  - title: "linkedin"
+#    url: ""
+#  - title: "youtube"
+#    url: ""
+
+# Background image to be tiled on all pages
+background:
+
+# Analytics and webmaster tools stuff goes here
+google_analytics: G-R6M398WYTH
+google_verify:
+bing_verify:
+
+# http://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+timezone:    Europe/Stockholm
+locale:      se_SV
+future:      true
+highlighter: rouge
+markdown:    kramdown
+sass:
+  sass_dir: _sass
+  style: compressed
+
+# https://github.com/mojombo/jekyll/wiki/Permalinks
+permalink:   /:categories/:title/
+
+# Amount of post to show on home page
+paginate: 5
+
+float_share: false
+
+# Octopress
+# Default extensions
+post_ext: md
+page_ext: md
+# Found in _templates/
+post_layout: post
+page_layout: page
+# Format titles with titlecase?
+titlecase: true
+
+include: [".htaccess"]
+exclude: ["lib", "config.rb", "Capfile", "config", "Gemfile", "Gemfile.lock", "README.md", "LICENSE", "log", "Rakefile", "Rakefile.rb", "tmp", "less", "*.sublime-project", "*.sublime-workspace", "test", "spec", "Gruntfile.js", "package.json", "node_modules"]
+gems: [jekyll-paginate]
+theme: neo-hpstr-jekyll-theme
