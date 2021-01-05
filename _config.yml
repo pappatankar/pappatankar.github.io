@@ -1,7 +1,7 @@
 title:            Pappatankar
 description:      En helt vanlig pappa antecknar sina tankar
 
-disqus_shortname: pappatankar.disqus.com
+disqus_shortname: pappatankar
 reading_time:     true # if true, shows the estimated reading time for a post
 words_per_minute: 200
 logo:             #images/logo.png # logo visible in the topbar
