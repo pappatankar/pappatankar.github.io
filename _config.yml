@@ -10,6 +10,8 @@ excerpt_separator: <!--more-->
 url: https://pappatankar.nu
 
 menu:
+  - title: 'Hem'
+    url: '/'
 # Owner/author information
 owner:
   name:           Pappatankar
